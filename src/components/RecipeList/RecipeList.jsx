@@ -8,8 +8,7 @@ export const RecipeList = ({recipes}) => {
                 <li key={recipe.id}>
                     <Recipe recipe={recipe}/>
                 </li>
-           ))}
-            
+           ))}            
         </List>
     );
 }
